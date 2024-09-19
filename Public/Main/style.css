@@ -1,0 +1,395 @@
+body{
+    background-color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+.navMenu{
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+}
+.LogoSection{
+    height: 100%;
+}
+.LogoSection img{
+    height: 101px;
+}
+.navMenuBtnPack button{
+    float: right;
+    width: 15%;
+    height: 100%;
+    font-size: 17px;
+    color: #6a6a6a;
+    background-color: inherit;
+    border: none;
+}
+.navMenuBtnPack button:hover{
+    color: #3a3737;
+}
+#HomeBtn{
+    color: black;
+}
+.navMenuUtility button{
+    float: right;
+    width: 15%;
+    height: 100%;
+    font-size: 20px;
+    color: #6a6a6a;
+    background-color: inherit;
+    border: none;
+    transition: color 0.2s ease-out;
+}
+#AccountBtn:hover{
+    color: black;
+}
+#ShoppingCartBtn:hover{
+    color: #FF7520;
+}
+#navMenuListBtn{
+    color: black;
+    font-size: 25px;
+    cursor: default;
+}
+#navMenuListBtn i{
+    cursor: pointer;
+}
+.navMenuListDropDown{
+    position: absolute;
+    visibility: hidden;
+    width: 35%; 
+    top: 0%;
+    height: 1000px;
+    background-color: white;
+}
+.DropDownMenuAniOn{
+    animation-name: DropDownMenuAnimationOn;
+    animation-duration: 500ms;
+    transition: visibility 0.5s ease, width 0.5s ease;
+}
+.DropDownMenuAniOff{
+    animation-name: DropDownMenuAnimationOff;
+    animation-duration: 500ms;
+    transition: visibility 0.5s ease, width 0.5s ease;
+}
+@keyframes DropDownMenuAnimationOn {
+    from{
+        visibility: hidden;
+        width: 0%;
+    }
+    to{
+        visibility: visible;
+        width: 35%;
+    }
+}
+@keyframes DropDownMenuAnimationOff {
+    from{
+        visibility: visible;
+        width: 35%;
+    }
+    to{
+        visibility: hidden;
+        width: 0%;
+    }
+}
+#AccountLBtn{
+    width: 100%;
+    height: 5%;
+    font-size: 35px;
+    color: #6a6a6a;
+    background-color: black;
+    border: none;
+    transition: color 0.2s ease-out;
+}
+.navMenuListDropDownBtnPack{
+    height: 40%;
+}
+.navMenuListDropDownBtnPack button{
+    width: 98%;
+    height: 20%;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 301;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: none;
+    background-color: inherit;
+    transition: color 0.2s ease-out;
+}
+.navMenuListDropDownBtnPack button:hover{
+    color: gray;
+}
+.ProductsText{
+    margin-top: 15%;
+    font-size: 25px;
+    font-weight: 501;
+}
+#ArrowDownIcon{
+    display: none;
+}
+#ArrowDownPRIcon{
+    display: none;
+}
+#ArrowDownTRIcon{
+    display: none;
+}
+
+.navMenuListDropDownProductsBtnPack button{
+    width: 98%;
+    height: 20%;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 301;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: none;
+    background-color: inherit;
+    transition: color 0.2s ease-out;
+}
+.navMenuListDropDownProductsBtnPack button:hover{
+    color: gray;
+}
+.ArrowLeftIcon{
+    float: right;
+    margin-right: 3%;
+}
+.fashionsDiv{
+    display: none;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.PersonalCareDiv{
+    display: none;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.ToysDiv{
+    display: none;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.SettingsText{
+    margin-top: 2%;
+    font-size: 25px;
+    font-weight: 501;
+}
+.navMenuListSettings button{
+    width: 100%;
+    height: 20%;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 301;
+    margin-top: 2%;
+    border: none;
+    background-color: inherit;
+    transition: color 0.2s ease-out;
+}
+.GlobIcon{
+    color: rgb(95, 226, 117);
+}
+#AccountLBtnDiv{
+    display: none;
+}
+#navMenuListDropDownBtnPackDiv{
+    display: none;
+}
+#DropDownMenu{
+    display: none;
+}
+#navMenuListSettingsDiv{
+    display: none;
+}
+#BarsToggleOffIcon{
+    display: none;
+}
+#AccountLBtnL{
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: gray;
+    font-size: 25px;
+}
+.MainBody{
+    width: 100%;
+    margin-top: 2%;
+}
+.HeaderElement{
+    width: 100%;
+    height: 500px;
+}
+.HeaderElementIconHolder{
+    text-align: center;
+}
+#IconForHeaderElementIcon{
+    font-size: 445px;
+}
+.HeaderElementMainText{
+    text-align: center;
+    font-size: 38px;
+    margin-top: 13%;
+}
+.ShopProductsBtnHolder{
+    text-align: center;
+}
+#ShopProductsBtn{
+    padding: 2%;
+    margin-top: 12%;
+    width: 35%;
+    height: 14%;
+    font-size: 25px;
+    border: none;
+    color: white;
+    background-color: darkgoldenrod;
+}
+#ShopProductsBtn:hover{
+    color: black;
+    background-color: rgb(213, 164, 38);
+}
+.ServicesCompmy{
+    height: 150px;
+}
+.fastDeliveryDiv{
+    margin-left: 3%;
+}
+.FastDeIconHeaderText{
+    text-align: center;
+    font-size: 25px;
+    color: lightblue;
+}
+.TruckIcon{
+    color: black;
+    margin-right: 2%;
+    font-size: 33px;
+}
+.FastDeDesText{
+    margin-left: 15%;
+}
+.QualityDiv{
+   margin-left: 1.5%;
+}
+.QualityIconHeaderText{
+    text-align: center;
+    font-size: 25px;
+    color: lightblue;
+}
+.StarIcon{
+    color: gold;
+    margin-right: 2%;
+    font-size: 33px;
+}
+.QualityDesText{
+   margin-left: 15%;
+}
+.DailyOffersDiv{
+    margin-left: 0.5%;
+}
+.DailyOffersIconHeaderText{
+    text-align: center;
+    font-size: 25px;
+    color: lightblue;
+}
+.ShoppingBagIcon{
+    color: #FF7520;
+    margin-right: 2%;
+    font-size: 33px;
+}
+.DailyOffersDesText{
+   margin-left: 15%;
+}
+.SecurePayment{
+    margin-left: 1%;
+}
+.SecurePaymentIconHeaderText{
+    text-align: center;
+    font-size: 25px;
+    color: lightblue;
+}
+.ShieldIcon{
+    color: slategrey;
+    margin-right: 2%;
+    font-size: 33px;
+}
+.SecurePaymentDesText{
+    margin-left: 15%;
+}
+.BodySectionsForProducts{
+    height: 450px;
+    display: none;
+}
+.carousel-item{
+    justify-content: center;
+}
+.SectionForMobileProducts{
+    height: 450px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.ProductIphone6{
+    background-image: url(Img/Iphone16.jpg);
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 1030px) {
+   
+    .navMenuBtnPack button{
+        margin-right: 5%;
+    }
+}
+@media (max-width: 730px){
+    .navMenuBtnPack button{
+       display: none;
+    }
+    .navMenuUtility button{
+        margin-left: 5%;
+    }
+    .ProductsText{
+        margin-left: 2%;
+    }
+    .SettingsText{
+        margin-left: 2%;
+    }
+}
+@media (max-width: 575px){
+    .LogoSection{
+        width: 10%;
+    }
+    .navMenuBtnPack{
+        width: 10%;
+    }
+    .navMenuUtility{
+        width: 80%;
+    }
+    .navMenuUtility button{
+        margin-left: 1%;
+    }
+    .navMenuListDropDown{
+        width: 75%;
+    }
+    @keyframes DropDownMenuAnimationOn {
+        from{
+            visibility: hidden;
+            width: 0%;
+        }
+        to{
+            visibility: visible;
+            width: 90%;
+        }
+    }
+    @keyframes DropDownMenuAnimationOff {
+        from{
+            visibility: visible;
+            width: 90%;
+        }
+        to{
+            visibility: hidden;
+            width: 0%;
+        }
+    }
+    
+}
+@media (max-width: 365px) {
+    #AccountBtn{
+        display: none;
+    }
+    #ShoppingCartBtn{
+        display: none;
+    }
+}

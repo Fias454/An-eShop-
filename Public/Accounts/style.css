@@ -1,0 +1,154 @@
+body{
+    background-color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+.navMenuHeader{
+    height: 50px;
+    background-color: black;
+}
+.MainReDirect button{
+    background-color: inherit;
+    border: none;
+    height: 100%;
+}
+.MainReDirect i{
+    font-size: 50px;
+    height: 100%;
+    color: white;
+    font-size: 25px;
+    margin-top: 12px;
+}
+#ImgLogo{
+    width: 128px;
+    height: 95px;
+}
+.MainBody{
+    margin-top: 5%;
+    height: fit-content;
+}
+.SignUpSection{
+    margin-left: 8%;
+    height: 800px;
+}
+.SignUpHeaderText{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 501;
+}
+.SignUpSection input{
+    display: block;
+    width: 90%;
+    height: 7%;
+    font-size: 17px;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    padding: 1.5%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(219, 219, 219);
+    color: gray;
+}
+.AltLogInSideSignUp{
+    text-align: center;
+    margin-top: 5%;
+}
+.AltLogInSideSignUp button{
+    border: none;
+    background-color: inherit;
+    color: green;
+}
+.AltLogInSideSignUp button:hover{
+    color: darkgreen;
+}
+
+#SignUpBtn{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+    height: 7%;
+    background-color: black;
+    color:white;
+    border: none;
+    border-radius: 15px;
+    font-size: 21px;
+    font-weight: 501;
+}
+.SignUpWithEmailText{
+    font-size: 25px;
+    font-weight: 501;
+    text-align: center;
+}
+#SignUpWithEmailBtn{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+    height: 7%;
+    background-color: black;
+    color:white;
+    border: none;
+    border-radius: 15px;
+    font-size: 21px;
+    font-weight: 501;
+}
+.LogInSection{
+    height: 800px;
+}
+.LogInHeaderText{
+    font-size: 25px;
+    font-weight: 501;
+    text-align: center;
+}
+.LogInSection input{
+    display: block;
+    width: 90%;
+    height: 7%;
+    font-size: 17px;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    padding: 1.5%;
+    border: none;
+    border-radius: 5px;
+    outline: 1px solid black;
+    outline-offset: 2px;
+    background-color: white;
+    color: gray;
+}
+.LogInSection button{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 90%;
+    height: 7%;
+    background-color: black;
+    color:white;
+    border: none;
+    border-radius: 15px;
+    font-size: 21px;
+    font-weight: 501;
+}
+@media (max-width: 800px) {
+    .MainBody{
+        display: unset;
+    }
+    .SignUpSection{
+        display: block;
+        margin-left: unset;
+        height: 800px;
+        width: 100%;
+    }
+    .LogInSection{
+        display: block;
+        margin-left: unset;
+        height: 800px;
+        width: 100%;
+    }
+}
+@media (max-width: 575px) {
+    .MainReDirect{
+        width: 1%;
+    }
+    .LogoS{
+        width: 1%;
+    }
+}

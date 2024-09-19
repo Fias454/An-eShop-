@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eShop</title>
+</head>
+<body>
+    <header class="navMenu row">
+        <section class="LogoSection col-sm-2">
+            <img src="Img/fire-303309.svg" alt="Public/Main/Img/fire-303309.svg" id="ImgLogo">
+        </section>
+        <section class="navMenuBtnPack col-sm-6">
+            <button id="BlogBtn">Blog</button>
+            <button id="ServicesBtn">Services</button>
+            <button id="ProductsBtn">Products</button>
+            <button id="HomeBtn">Home</button>
+        </section>
+        <section class="navMenuUtility col-sm-4">
+            <button id="navMenuListBtn"><i id="BarsToggleOnIcon" class="fa fa-align-right" aria-hidden="true"></i><i id="BarsToggleOffIcon" class="fa fa-bars" aria-hidden="true"></i></button>
+            <button id="AccountBtn"><i class="fa fa-user-circle" aria-hidden="true"></i></button>
+            <button id="ShoppingCartBtn"><i class="fa fa-shopping-basket" aria-hidden="true"></i></button>
+        </section>
+    </header>
+    <section id="DropDownMenuList" class="navMenuListDropDown">
+        <div id="AccountLBtnDiv" class="AccountLBtn">
+            <button id="AccountLBtnL"><i class="fa fa-user-circle" aria-hidden="true"></i></button>
+        </div>
+        <div id="navMenuListDropDownBtnPackDiv" class="navMenuListDropDownBtnPack">
+            <button id="HomeLBtn">Home</button>
+            <button id="ProductsLBtn">Products</button>
+            <button id="ServicesLBtn">Services</button>
+            <button id="BlogBtn">Blog</button>
+            <button id="ShoppingCartBtn">Your shopping cart <i class="fa fa-shopping-basket" aria-hidden="true"></i></button>
+            <hr>
+        </div>
+        <div id="DropDownMenu" class="navMenuListDropDownProductsBtnPack">
+            <p class="ProductsText">Products</p>
+            <button id="fashionBtn">Fashion<i id="ArrowLeftIcon" class="ArrowLeftIcon fa fa-caret-right" aria-hidden="true"></i><i id="ArrowDownIcon" class="ArrowLeftIcon fa fa-caret-down" aria-hidden="true"></i></button>
+            <div id="fashionsDiv" class="fashionsDiv">
+                <button id="WomenFashionbtn">Women fashion <i class="ArrowLeftIcon fa fa-caret-right" aria-hidden="true"></i></button>
+                <button id="MenFashionbtn">Men fashion <i class="ArrowLeftIcon fa fa-caret-right" aria-hidden="true"></i></button>
+                <button id="KidsFashionbtn">Kids fashion <i class="ArrowLeftIcon fa fa-caret-right" aria-hidden="true"></i></button>
+            </div>
+            <button id="PersonalCareBtn">Personal care <i id="ArrowLeftPLIcon" class="ArrowLeftIcon fa fa-caret-right" aria-hidden="true"></i><i id="ArrowDownPRIcon" class="ArrowLeftIcon fa fa-caret-down" aria-hidden="true"></i></button>
+            <div id="PersonalCareDiv" class="PersonalCareDiv">
+                <button id="MakeUpbtn">Make Up<i class="ArrowLeftIcon fa fa-caret-right" aria-hidden="true"></i></button>
+                <button id="hairCareMenbtn">Hair Care <i class="ArrowLeftIcon fa fa-caret-right" aria-hidden="true"></i></button>
+                <button id="SkinCarebtn">Skin Care<i class="ArrowLeftIcon fa fa-caret-right" aria-hidden="true"></i></button>
+            </div>
+            <button id="ToysBtn">Toys <i id="ArrowDownTLIcon" class="ArrowLeftIcon fa fa-caret-right" aria-hidden="true"></i></i><i id="ArrowDownTRIcon" class="ArrowLeftIcon fa fa-caret-down" aria-hidden="true"></i></button>
+            <div id="ToysDiv" class="ToysDiv">
+                <button id="VehiclesToybtn">Vehicles<i class="ArrowLeftIcon fa fa-caret-right" aria-hidden="true"></i></button>
+                <button id="PuzzleToybtn">Puzzle <i class="ArrowLeftIcon fa fa-caret-right" aria-hidden="true"></i></button>
+                <button id="DollToybtn">Doll<i class="ArrowLeftIcon fa fa-caret-right" aria-hidden="true"></i></button>
+            </div>
+            <button id="ElectronicsBtn">Electronics <i class="ArrowLeftIcon fa fa-caret-right" aria-hidden="true"></i></button>
+            <hr>
+        </div>
+        <div id="navMenuListSettingsDiv" class="navMenuListSettings">
+            <p class="SettingsText">Settings</p>
+            <button id="YourAccountBtn">Your Account</button>
+            <button id="LangSelectBtn"><i class="GlobIcon fa fa-globe" aria-hidden="true"></i> Enlgish</button>
+        </div>
+    </section>
+
+    <main class="MainBody">
+        <section class="HeaderElement row">
+           <div class="HeaderElementText col-sm-6">
+                <p class="HeaderElementMainText">Lorem ipsum dolor sit amet.</p>
+                <p class="ShopProductsBtnHolder"> <button id="ShopProductsBtn">Products</button></p>
+            </div>
+           <div class="HeaderElementIcon col-sm-5">
+            <p class="HeaderElementIconHolder"><i id="IconForHeaderElementIcon" class="fa fa-shopping-bag" aria-hidden="true"></i></p>
+           </div>
+        </section>
+        <section class="ServicesCompmy row">
+            <div class="fastDeliveryDiv col-sm-2">
+                <p class="FastDeIconHeaderText"><i class="TruckIcon fa fa-truck" aria-hidden="true"></i>Free delivery</p>
+                <p class="FastDeDesText">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="QualityDiv col-sm-3">
+                <p class="QualityIconHeaderText"><i class="StarIcon fa fa-star" aria-hidden="true"></i>Quality guarantee</p>
+                <p class="QualityDesText">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+            <div class="DailyOffersDiv col-sm-3">
+                <p class="DailyOffersIconHeaderText"><i class="ShoppingBagIcon fa fa-shopping-bag" aria-hidden="true"></i>Daily offers</p>
+                <p class="DailyOffersDesText">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="SecurePayment col-sm-3">
+                <p class="SecurePaymentIconHeaderText"><i class="ShieldIcon fa fa-shield" aria-hidden="true"></i>100% secure payment</p>
+                <p class="SecurePaymentDesText">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+        </section>
+        <section class="BodySectionsForProducts">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                  </div>
+                  <div class="carousel-inner row">
+                    <div class="carousel-item active">
+                    <div class="carousel-item">
+                      <img src="Img/Iphone11.jpg" alt="Img/Iphone11">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Img/SamsungA14.jpg" alt="Img/SamsungA14">
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+<script src="script.js"></script>
+</html>
